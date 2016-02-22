@@ -1,0 +1,48 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.57</VERSION>
+ <DEVICE>"ATmega88"</DEVICE>
+ <WORKING_DIR>E:\My Projects\Infinity Cube\project\Atmega88 Stepper controller\Atmega88 Stepper controller\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.0.90\avrasm\inc</DIR>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.0.90\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>E:\My Projects\Infinity Cube\project\Atmega88 Stepper controller\Atmega88 Stepper controller\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.0.90\avrasm\inc\m88def.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>E:\My Projects\Infinity Cube\project\Atmega88 Stepper controller\Atmega88 Stepper controller\Debug\Atmega88 Stepper controller.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>Atmega88 Stepper controller.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>Atmega88 Stepper controller.map</FILE>
+  <FILE>Atmega88 Stepper controller.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <RESET><FILE>E:\My Projects\Infinity Cube\project\Atmega88 Stepper controller\Atmega88 Stepper controller\main.asm</FILE><LINE>194</LINE></RESET>
+  <TIM1_OVF><FILE>E:\My Projects\Infinity Cube\project\Atmega88 Stepper controller\Atmega88 Stepper controller\main.asm</FILE><LINE>98</LINE></TIM1_OVF>
+  <_TIM1_OVF_check_enable><FILE>E:\My Projects\Infinity Cube\project\Atmega88 Stepper controller\Atmega88 Stepper controller\main.asm</FILE><LINE>104</LINE></_TIM1_OVF_check_enable>
+  <_TIM1_OVF_ouput_disable><FILE>E:\My Projects\Infinity Cube\project\Atmega88 Stepper controller\Atmega88 Stepper controller\main.asm</FILE><LINE>122</LINE></_TIM1_OVF_ouput_disable>
+  <_TIM1_OVF_check_switches><FILE>E:\My Projects\Infinity Cube\project\Atmega88 Stepper controller\Atmega88 Stepper controller\main.asm</FILE><LINE>129</LINE></_TIM1_OVF_check_switches>
+  <_TIM1_OVF_check_enable_end><FILE>E:\My Projects\Infinity Cube\project\Atmega88 Stepper controller\Atmega88 Stepper controller\main.asm</FILE><LINE>126</LINE></_TIM1_OVF_check_enable_end>
+  <_TIM1_OVF_check_ADC_result><FILE>E:\My Projects\Infinity Cube\project\Atmega88 Stepper controller\Atmega88 Stepper controller\main.asm</FILE><LINE>152</LINE></_TIM1_OVF_check_ADC_result>
+  <_TIM1_OVF_end><FILE>E:\My Projects\Infinity Cube\project\Atmega88 Stepper controller\Atmega88 Stepper controller\main.asm</FILE><LINE>185</LINE></_TIM1_OVF_end>
+  <init_proc><FILE>E:\My Projects\Infinity Cube\project\Atmega88 Stepper controller\Atmega88 Stepper controller\main.asm</FILE><LINE>195</LINE></init_proc>
+  <init_ports><FILE>E:\My Projects\Infinity Cube\project\Atmega88 Stepper controller\Atmega88 Stepper controller\main.asm</FILE><LINE>203</LINE></init_ports>
+  <init_timers><FILE>E:\My Projects\Infinity Cube\project\Atmega88 Stepper controller\Atmega88 Stepper controller\main.asm</FILE><LINE>242</LINE></init_timers>
+  <init_timer1><FILE>E:\My Projects\Infinity Cube\project\Atmega88 Stepper controller\Atmega88 Stepper controller\main.asm</FILE><LINE>258</LINE></init_timer1>
+  <init_adc><FILE>E:\My Projects\Infinity Cube\project\Atmega88 Stepper controller\Atmega88 Stepper controller\main.asm</FILE><LINE>285</LINE></init_adc>
+  <_init_adc_loop><FILE>E:\My Projects\Infinity Cube\project\Atmega88 Stepper controller\Atmega88 Stepper controller\main.asm</FILE><LINE>302</LINE></_init_adc_loop>
+  <Main><FILE>E:\My Projects\Infinity Cube\project\Atmega88 Stepper controller\Atmega88 Stepper controller\main.asm</FILE><LINE>315</LINE></Main>
+  <_main_loop><FILE>E:\My Projects\Infinity Cube\project\Atmega88 Stepper controller\Atmega88 Stepper controller\main.asm</FILE><LINE>316</LINE></_main_loop>
+  <_main_wavevorm><FILE>E:\My Projects\Infinity Cube\project\Atmega88 Stepper controller\Atmega88 Stepper controller\main.asm</FILE><LINE>323</LINE></_main_wavevorm>
+  <_main_wavevorm_end><FILE>E:\My Projects\Infinity Cube\project\Atmega88 Stepper controller\Atmega88 Stepper controller\main.asm</FILE><LINE>331</LINE></_main_wavevorm_end>
+  <_main_ADCheck><FILE>E:\My Projects\Infinity Cube\project\Atmega88 Stepper controller\Atmega88 Stepper controller\main.asm</FILE><LINE>334</LINE></_main_ADCheck>
+  <_main_ADCheck_end><FILE>E:\My Projects\Infinity Cube\project\Atmega88 Stepper controller\Atmega88 Stepper controller\main.asm</FILE><LINE>352</LINE></_main_ADCheck_end>
+  <_main_loop_end><FILE>E:\My Projects\Infinity Cube\project\Atmega88 Stepper controller\Atmega88 Stepper controller\main.asm</FILE><LINE>392</LINE></_main_loop_end>
+ </LABELS>
+</ASSEMBLER_INFO>

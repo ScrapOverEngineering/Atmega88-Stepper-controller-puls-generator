@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="14.0">
+  <PropertyGroup>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectVersion>7.0</ProjectVersion>
+    <ToolchainName>com.Atmel.AVRAssembler</ToolchainName>
+    <ProjectGuid>59B1D629-9DCC-43ed-A0FD-8AB0E4D622AB</ProjectGuid>
+    <avrdeviceseries>none</avrdeviceseries>
+    <avrdevice>ATmega88</avrdevice>
+    <OutputFileName>$(MSBuildProjectName)</OutputFileName>
+    <OutputFileExtension>.obj</OutputFileExtension>
+    <OutputDirectory>$(MSBuildProjectDirectory)\$(Configuration)</OutputDirectory>
+    <Language>ASSEMBLY</Language>
+    <AssemblyName>Atmega88 Stepper controller</AssemblyName>
+    <Name>Atmega88 Stepper controller</Name>
+    <RootNamespace>Atmega88 Stepper controller</RootNamespace>
+    <ToolchainFlavour>Native</ToolchainFlavour>
+    <EntryFile>$(MSBuildProjectDirectory)\main.asm</EntryFile>
+    <KeepTimersRunning>false</KeepTimersRunning>
+    <OverrideVtor>false</OverrideVtor>
+    <CacheFlash>true</CacheFlash>
+    <ProgFlashFromRam>true</ProgFlashFromRam>
+    <RamSnippetAddress>0x20000000</RamSnippetAddress>
+    <UncachedRange />
+    <preserveEEPROM>false</preserveEEPROM>
+    <OverrideVtorValue>exception_table</OverrideVtorValue>
+    <BootSegment>2</BootSegment>
+    <eraseonlaunchrule>1</eraseonlaunchrule>
+    <AsfFrameworkConfig>
+      <framework-data xmlns="">
+        <options />
+        <configurations />
+        <files />
+        <documentation help="" />
+        <offline-documentation help="" />
+        <dependencies>
+          <content-extension eid="atmel.asf" uuidref="Atmel.ASF" version="3.28.1" />
+        </dependencies>
+      </framework-data>
+    </AsfFrameworkConfig>
+    <avrtool>com.atmel.avrdbg.tool.avrdragon</avrtool>
+    <avrtoolserialnumber>00A200003511</avrtoolserialnumber>
+    <avrdeviceexpectedsignature>0x1E930A</avrdeviceexpectedsignature>
+    <com_atmel_avrdbg_tool_avrdragon>
+      <ToolOptions>
+        <InterfaceProperties>
+          <IspClock>4000000</IspClock>
+        </InterfaceProperties>
+        <InterfaceName>debugWIRE</InterfaceName>
+      </ToolOptions>
+      <ToolType>com.atmel.avrdbg.tool.avrdragon</ToolType>
+      <ToolNumber>00A200003511</ToolNumber>
+      <ToolName>AVR Dragon</ToolName>
+    </com_atmel_avrdbg_tool_avrdragon>
+    <avrtoolinterface>debugWIRE</avrtoolinterface>
+    <avrtoolinterfaceclock>4000000</avrtoolinterfaceclock>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <ToolchainSettings>
+      <AvrAssembler>
+        <avrasm.assembler.general.AdditionalIncludeDirectories>
+          <ListValues>
+            <Value>%24(PackRepoDir)\atmel\ATmega_DFP\1.0.90\avrasm\inc</Value>
+            <Value>%24(PackRepoDir)\atmel\ATmega_DFP\1.0.90\avrasm\inc</Value>
+          </ListValues>
+        </avrasm.assembler.general.AdditionalIncludeDirectories>
+        <avrasm.assembler.general.IncludeFile>m88def.inc</avrasm.assembler.general.IncludeFile>
+      </AvrAssembler>
+    </ToolchainSettings>
+    <OutputType>Executable</OutputType>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <ToolchainSettings>
+      <AvrAssembler>
+        <avrasm.assembler.general.AdditionalIncludeDirectories>
+          <ListValues>
+            <Value>%24(PackRepoDir)\atmel\ATmega_DFP\1.0.90\avrasm\inc</Value>
+            <Value>%24(PackRepoDir)\atmel\ATmega_DFP\1.0.90\avrasm\inc</Value>
+          </ListValues>
+        </avrasm.assembler.general.AdditionalIncludeDirectories>
+        <avrasm.assembler.general.IncludeFile>m88def.inc</avrasm.assembler.general.IncludeFile>
+      </AvrAssembler>
+    </ToolchainSettings>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="main.asm">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <Import Project="$(AVRSTUDIO_EXE_PATH)\\Vs\\Assembler.targets" />
+</Project>
